@@ -19,7 +19,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:1337', 'http://where-can-i-eat-vegetarian.vercel.app/']
+      origin: ['http://where-can-i-eat-vegetarian.vercel.app/'],
     }
   },
   'strapi::poweredBy',
