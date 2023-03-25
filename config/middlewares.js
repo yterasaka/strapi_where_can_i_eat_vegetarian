@@ -14,7 +14,14 @@ module.exports = [
       },
     },
   },
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true,
+      headers: '*',
+      origin: ['http://localhost:1337', 'http://where-can-i-eat-vegetarian.vercel.app/']
+    }
+  },
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
